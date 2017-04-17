@@ -32,5 +32,6 @@ Electron-forge also does not play nicely with `npm link`ed
 local packages.
 Other goodies, such as webpack DLLs are also impossible with 
 electron-forge.
-Basically, the original boilerplate is massive because it 
-has stuff you need.
+
+To recap:
+***The original boilerplate is massive because it has stuff you need.***
