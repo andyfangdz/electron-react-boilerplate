@@ -19,8 +19,9 @@ as possible.
   - URL is part of your application state. It's necessary
     in web pages because users expect to go back to a
     particular state via the same URL. However, for
-    desktop apps, there's no such requirement in
-    desktop apps.
+    desktop apps, there's no such requirement. URLs are
+    invisible in electron apps, and is no different than
+    any other state.
 - Flow is not included.
 - Tests are removed.
 - Some reorganizations are made.
