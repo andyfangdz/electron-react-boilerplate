@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Electron React Boilerplate (fork)
 
 Shamelessly copied most of the code from 

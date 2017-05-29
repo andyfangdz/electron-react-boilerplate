@@ -187,7 +187,8 @@ export default merge.smart(baseConfig, {
      * https://webpack.js.org/concepts/hot-module-replacement/
      */
     new webpack.HotModuleReplacementPlugin({
-      multiStep: true
+      // @TODO: Waiting on https://github.com/jantimon/html-webpack-plugin/issues/533
+      // multiStep: true
     }),
 
     new webpack.NoEmitOnErrorsPlugin(),
@@ -214,7 +215,7 @@ export default merge.smart(baseConfig, {
 
     new ExtractTextPlugin({
       filename: '[name].css'
-    })
+    }),
   ],
 
   devServer: {

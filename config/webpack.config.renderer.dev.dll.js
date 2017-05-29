@@ -155,14 +155,13 @@ export default merge.smart(baseConfig, {
   resolve: {
     modules: [
       'app',
-      'node_modules',
     ],
   },
 
   entry: {
     vendor: [
       'babel-polyfill',
-      ...Object.keys(dependencies)
+      ...Object.keys(dependencies || {})
     ]
     .filter(dependency => dependency !== 'font-awesome'),
   },
